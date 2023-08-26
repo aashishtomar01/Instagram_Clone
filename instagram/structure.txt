@@ -1,0 +1,48 @@
+instagram-clone/
+│
+├── public/
+│   ├── index.html
+│   ├── images/
+│   ├── styles/
+│   │   ├── main.css
+│   │   └── ...
+│   └── scripts/
+│       ├── main.js
+│       └── ...
+│
+├── src/
+│   ├── server/
+│   │   ├── app.js               # Express.js app configuration
+│   │   ├── routes/              # Express.js route handlers
+│   │   │   ├── auth.js
+│   │   │   ├── posts.js
+│   │   │   └── ...
+│   │   └── controllers/         # Route controllers
+│   │       ├── authController.js
+│   │       ├── postsController.js
+│   │       └── ...
+│   │
+│   ├── client/
+│   │   ├── components/          # React components
+│   │   │   ├── Header.js
+│   │   │   ├── Feed.js
+│   │   │   ├── Profile.js
+│   │   │   └── ...
+│   │   ├── App.js               # Main React app component
+│   │   ├── index.js             # React app entry point
+│   │   └── ...
+│   │
+│   ├── database/
+│   │   ├── models/              # Database models (e.g., using MongoDB)
+│   │   │   ├── User.js
+│   │   │   ├── Post.js
+│   │   │   └── ...
+│   │   ├── db.js                # Database connection setup
+│   │   └── ...
+│   │
+│   ├── config.js                # App configuration constants
+│   └── ...
+│
+├── package.json                # Project dependencies and scripts
+├── README.md                   # Project documentation
+└── ...
